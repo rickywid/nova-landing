@@ -21,6 +21,10 @@ body {
     margin: 0;
 }
 
+p {
+    color: #d8eeff;
+}
+
 .viewport-header {
     position: relative;
     height: 100%;
@@ -32,10 +36,14 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
     flex-direction: column;
+    padding: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Syncopate', sans-serif;
 }
 
 h1 {
-    font-family: 'Syncopate', sans-serif;
     color: white;
     text-transform: uppercase;
     letter-spacing: 3vw;
@@ -49,14 +57,17 @@ h1 span {
     letter-spacing: -1.3vw;
 }
 
+header h3 {
+    background: #245ac7;
+    font-size: 18px;
+}
+
 h3 {
-    font-family: 'Syncopate', sans-serif;
     color: white;
     text-transform: uppercase;
     letter-spacing: 10px;
     line-height: 1.2;
     text-align: center;
-    background: #245ac7;
     padding: 10px;
     border-radius: 10px;
 }
@@ -72,7 +83,7 @@ main {
 }
 
 .main-inner {
-    max-width: 50%;
+    max-width: 100%;
     margin: 0 auto;
     margin-top: 16rem;
 }
@@ -82,17 +93,18 @@ main p {
 }
 
 .pricing {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
+    display: block;
+    width: 100%;
 }
 
 .pricing .info {
-    background: #06378d;
+    background: rgb(6, 55, 141);
+    background: linear-gradient(148deg, rgba(6,55,141,1) 47%, rgba(100,154,247,1) 100%);
     padding: 37px;
     flex-basis: 26%;
     border-radius: 10px;
     border: 1px solid #245ac7;
+    margin-bottom: 20px;
 }
 
 .pricing .pkg-head {
@@ -123,8 +135,9 @@ label {
 
 input, textarea {
     width: 100%;
-    background: #031d32;
+    background: #093152;
     border: 1px solid #031d32;
+    color: #d8eeff;
 }
 
 nav {
@@ -137,4 +150,29 @@ nav h5 {
     color: white;
     text-transform: uppercase;
     letter-spacing: 10px;
+}
+
+
+
+
+@media only screen and (min-width: 800px) {
+    header h3 {
+        font-size: 28px;
+    }
+}
+
+@media only screen and (min-width: 2170px) {
+    header h3 {
+        font-size: 28px;
+    }
+
+    .pricing {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    .main-inner {
+        width: 50%;
+    }
 }
