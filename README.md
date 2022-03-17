@@ -14,7 +14,7 @@ Clone application:
 
 `$ git clone https://github.com/rickywid/product-landing-page.git`
 
-Install packages:
+Open folder:
 
 `$ cd product-landing-page`
 
