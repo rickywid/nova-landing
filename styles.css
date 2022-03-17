@@ -1,0 +1,140 @@
+video {
+    object-fit: cover;
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+html {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-size: 150%;
+    line-height: 1.4;
+}
+
+body {
+    margin: 0;
+}
+
+.viewport-header {
+    position: relative;
+    height: 100%;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(./wave.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    flex-direction: column;
+}
+
+h1 {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 3vw;
+    line-height: 1.2;
+    font-size: 3vw;
+}
+
+h1 span {
+    display: block;
+    font-size: 10vw;
+    letter-spacing: -1.3vw;
+}
+
+h3 {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    line-height: 1.2;
+    text-align: center;
+    background: #245ac7;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+main {
+    background: #001220;
+    color: white;
+    position: relative;
+    padding: 1rem;
+    background-image: url(./wave2.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.main-inner {
+    max-width: 50%;
+    margin: 0 auto;
+    margin-top: 16rem;
+}
+
+main p {
+    margin: 1rem auto;
+}
+
+.pricing {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.pricing .info {
+    background: #06378d;
+    padding: 37px;
+    flex-basis: 26%;
+    border-radius: 10px;
+    border: 1px solid #245ac7;
+}
+
+.pricing .pkg-head {
+    display: block;
+    text-align: center;
+}
+
+section {
+    margin-bottom: 10rem;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+}
+
+.faq .question {
+    font-weight: bold;
+}
+
+label {
+    display: block;
+}
+
+input, textarea {
+    width: 100%;
+    background: #031d32;
+    border: 1px solid #031d32;
+}
+
+nav {
+    position: relative;
+    padding: 0 20px;
+}
+
+nav h5 {
+    font-family: 'Syncopate', sans-serif;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+}
