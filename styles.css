@@ -99,7 +99,7 @@ main p {
 
 .pricing .info {
     background: rgb(6, 55, 141);
-    background: linear-gradient(148deg, rgba(6,55,141,1) 47%, rgba(100,154,247,1) 100%);
+    background: linear-gradient(148deg, rgba(6, 55, 141, 1) 47%, rgba(100, 154, 247, 1) 100%);
     padding: 37px;
     flex-basis: 26%;
     border-radius: 10px;
@@ -153,7 +153,15 @@ nav h5 {
 }
 
 
-
+.btn-buy {
+    width: 100%;
+    margin-top: 20px;
+    background: #1a4ca3;
+    border: 1px solid #2b5eb6;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+}
 
 @media only screen and (min-width: 800px) {
     header h3 {
@@ -175,4 +183,4 @@ nav h5 {
     .main-inner {
         width: 50%;
     }
-} 
+}
